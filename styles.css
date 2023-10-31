@@ -1,0 +1,113 @@
+.menu1{
+    height: 300px;
+}
+
+.parent {
+	display: block;
+	position: relative;
+    float: left;
+	line-height: 30px;
+}
+
+.parent a {
+	margin: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+.parent:hover>ul {
+	display: block;
+	position: absolute;
+}
+
+.child {
+	display: none;
+}
+
+.child li {
+	line-height: 30px;
+	width: 100%;
+}
+
+.child li a {
+	color: #000000;
+    border-bottom: 2px solid blue;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	min-width: 10em;
+    background-color: #ccc;
+}
+
+ul ul ul {
+	left: 100%;
+	top: 0;
+}
+
+.expand {
+	font-size: 12px;
+	float: right;
+	margin-right: 5px;
+}
+
+
+
+.menu2{
+    width: max-content;
+}
+.parent2 {
+	display: block;
+	position: relative;
+	line-height: 30px;
+}
+
+.parent2 a {
+	margin: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+.parent2:hover>ul {
+	display: block;
+	position: absolute;
+}
+
+.child2 {
+	display: none;
+}
+
+.child2 li {
+	line-height: 30px;
+	width: 100%;
+    border: 1px solid black;
+}
+
+.child2 li a {
+	color: #000000;
+    border-bottom: 2px solid blue;
+}
+
+ul {
+    width: max-content;
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	min-width: 10em;
+    background-color: #ccc;
+}
+
+
+
+ul ul{
+	left: 100%;
+	top: 0;
+}
+
+.expand2 {
+	font-size: 12px;
+	float: right;
+	margin-right: 5px;
+}
